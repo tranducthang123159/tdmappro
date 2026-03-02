@@ -31,4 +31,4 @@ require __DIR__.'/tdmappro/vendor/autoload.php';
 
 $app = require_once __DIR__.'/tdmappro/bootstrap/app.php';
 
-$app->handleRequest(Request::capture());d
+$app->handleRequest(Request::capture());
